@@ -21,7 +21,7 @@
     "docs:dev": "yarn docs dev",
     "docs:start": "yarn docs start",
     "changeset": "changeset",
-    "publish": "yarn workspaces foreach -pv --exclude docs npm publish --tolerate-republish --access public",
+    "publish": "yarn workspaces foreach -pv --exclude docs npm publish --access public",
     "release": "changeset publish",
     "version:canary": "changeset version --snapshot canary",
     "release:canary": "changeset publish --tag canary"
