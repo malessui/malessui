@@ -1,13 +1,12 @@
-# `react-accordion`
+# `malessui/react`
 
 ## Installation
 
 ```sh
-$ yarn add @radix-ui/react-accordion
+$ yarn add @malessui/react
 # or
-$ npm install @radix-ui/react-accordion
+$ npm install @malessui/react-accordion
 ```
 
 ## Usage
 
-View docs [here](https://radix-ui.com/primitives/docs/components/accordion).
