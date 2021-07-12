@@ -17,7 +17,7 @@ For full documentation, visit [malessui.dev](https://github.com/shipless/malessu
 
 | Name                                                                                                     |                                                        Version                                                        |                                                        Downloads                                                         |
 | :------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------: |
-| [`@maless/react`](https://github.com/tailwindlabs/headlessui/tree/main/packages/%40headlessui-react) | [![npm (scoped)](https://img.shields.io/npm/v/@malessui/react?style=for-the-badge)](https://www.npmjs.com/package/@malessui/react) | [![npm](https://img.shields.io/npm/dt/@malessui/react?label=Download&style=for-the-badge)](https://www.npmjs.com/package/@malessui/react) |
+| [`@maless/react`](https://github.com/shipless/malessui/tree/main/packages/%40headlessui-react) | [![npm (scoped)](https://img.shields.io/npm/v/@malessui/react?style=for-the-badge)](https://www.npmjs.com/package/@malessui/react) | [![npm](https://img.shields.io/npm/dt/@malessui/react?label=Download&style=for-the-badge)](https://www.npmjs.com/package/@malessui/react) |
 
 ## Community
 
