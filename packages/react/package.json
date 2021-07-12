@@ -35,7 +35,8 @@
     "url": "https://github.com/shipless/malessui/issues"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
   },
-  "gitHead": "c9bbe36f9df7ce5385298e6d429c2175e46d9ffb"
+  "gitHead": "64151a855f304c4c8e8e2fff368be88bb9485b2c"
 }
