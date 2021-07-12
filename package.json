@@ -15,11 +15,13 @@
     "boot": "yarn prestart && yarn build",
     "start": "yarn storybook",
     "build": "lerna run build --no-private --stream",
+    "prepublish": "lerna run prepublish",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "docs:dev": "yarn docs dev",
     "docs:start": "yarn docs start",
     "changeset": "changeset",
+    "publish": "yarn workspaces foreach -pv --exclude docs npm publish --tolerate-republish --access public",
     "release": "changeset publish",
     "version:canary": "changeset version --snapshot canary",
     "release:canary": "changeset publish --tag canary"
