@@ -55,27 +55,4 @@ const colors: any = Object.keys(initColors).map(key => ({
   }
 }))
 
-// {
-//   variant: 'link',
-//   color: 'primary',
-//   css: {
-//     background: 'transparent',
-//     color: '$blue9',
-//     borderColor: 'transparent'
-//   }
-// },
-
-const colorsVariants = Object.keys(initColors).map(key => ({
-  [key]: {
-    background: `$${initColors[key].name}${initColors[key].bg}`,
-    color: `$${initColors[key].name}${initColors[key].text}`,
-    borderColor: `$${initColors[key].name}${initColors[key].borderColor}`,
-    '&:hover': {
-      background: `$${initColors[key].name}${initColors[key].bg + 2}`,
-      color: `$${initColors[key].name}${initColors[key].text}`,
-      borderColor: `$${initColors[key].name}${initColors[key].borderColor}`,
-    }
-  }
-}))
-
 export default Object.assign({}, ...colors)
