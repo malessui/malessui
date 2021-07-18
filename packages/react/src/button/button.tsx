@@ -5,8 +5,6 @@ import _sizes from "./_sizes"
 import _rounded from "./_rounded"
 import { compoundVariants } from "./_variants"
 
-console.log(JSON.stringify(compoundVariants, null, 2))
-
 const Button = styled('button', {
   $$baseColor: '$gray12',
   position: 'relative',
